@@ -14,6 +14,10 @@ const connect = function() {
   conn.on('data', (data) => {
     console.log(data);
   });
+    conn.write('Name: Cal')
+  // setInterval(() => {
+  //   conn.write('Move: up')
+  // }, 500);
   return conn;
 }
 
