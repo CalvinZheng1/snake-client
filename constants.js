@@ -1,5 +1,5 @@
-const ip = "'50.64.116.162'"
-const port = 50541
+const IP = '50.64.116.162'
+const PORT = 50541
 
 module.exports = {
   IP,
